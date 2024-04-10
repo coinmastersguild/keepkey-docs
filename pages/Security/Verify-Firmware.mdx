@@ -5,9 +5,21 @@ date: "2024-04-10"
 author: "Highlander"
 ---
 
-# Reproducible Builds and Authenticating KeepKey Firmware
+import Image from 'next/image'
 
 _"Don’t trust, Verify."_
+<br/>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <Image
+        src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*SoLtXneB6KYfdToi-pvMmg.jpeg"
+        alt="KeepKey Firmware Verification Process"
+        width={700}
+        height={400}
+        layout="intrinsic"
+    />
+</div>
+
+# Reproducible Builds and Authenticating KeepKey Firmware
 
 In the realm of device security, particularly with hardware wallets like KeepKey, the maxim _"Don’t trust, Verify"_ couldn't be more relevant. How can you be sure that what is displayed on your KeepKey's screen is what's truly being signed? How do you know if the device is signing a transaction to your intended target and not maliciously redirecting your funds? The integrity of your private keys—ensuring they remain confidential and within the device—is paramount.
 
