@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>KeepKey Docs</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/coinmastersguild/keepkey-docs',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/invite/FDQEbB79N2',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/coinmastersguild/keepkey-docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'KeepKey Docs',
   },
 }
 
